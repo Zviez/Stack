@@ -5,8 +5,8 @@ services:
     build: .
     restart: always
     environment:
-      WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_HOST: dbhost
+      WORDPRESS_DB_USER: wpuser
       WORDPRESS_DB_PASSWORD: secret
       WORDPRESS_DB_NAME: wpname
     volumes:
